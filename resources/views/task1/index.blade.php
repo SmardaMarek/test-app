@@ -237,7 +237,7 @@
     <section id="secondary-video">
         <!-- Video zobrazené na stránce -->
         <div class="relative z-20">
-            <video id="videoPlayerThumbnail" class="w-full mx-auto block" poster="{{ asset('videos/secondary.mp4') }}">
+            <video id="videoPlayerThumbnail" class="w-full mx-auto block" poster="{{ asset('images/secondary.webp') }}">
                 <source src="{{ asset('videos/secondary.mp4') }}" type="video/mp4">
                 Váš prohlížeč nepodporuje přehrávání videa.
             </video>
