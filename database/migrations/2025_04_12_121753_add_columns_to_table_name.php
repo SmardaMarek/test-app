@@ -10,8 +10,7 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::table('service', function (Blueprint $table) {
-            //
+        Schema::create('service', function (Blueprint $table) {
             $table->string('name');
             $table->text('description');
         });
