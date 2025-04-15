@@ -100,24 +100,24 @@
     <div class="grid grid-cols-2">
         <div class="flex flex-col">
             <img src="{{ asset('images/big1.webp') }}" alt="picture 1" class="w-full h-98 object-cover" 
-            data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 1" loading="lazy">
+            data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 1">
             <div class="grid grid-cols-2">
                 <img src="{{ asset('images/small1.webp') }}" alt="picture 2" class="w-full h-50 object-cover" 
-                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 2" loading="lazy">
+                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 2">
                 <img src="{{ asset('images/small2.webp') }}" alt="picture 3" class="w-full h-50 object-cover" 
-                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 3" loading="lazy">
+                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 3">
             </div>
         </div>
 
         <div class="flex flex-col">
             <div class="grid grid-cols-2">
                 <img src="{{ asset('images/small3.webp') }}" alt="picture 4" class="w-full h-50 object-cover" 
-                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 4" loading="lazy">
+                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 4">
                 <img src="{{ asset('images/small4.webp') }}" alt="picture 5" class="w-full h-50 object-cover" 
-                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 5" loading="lazy">
+                data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 5">
             </div>
             <img src="{{ asset('images/big2.webp') }}" alt="picture 6" class="w-full h-98 object-cover" 
-            data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 6" loading="lazy">
+            data-aos="fade-down" data-aos-delay="200" data-aos-duration="2000" data-aos-once="true" data-title="Obrázek 6">
         </div>
     </div>
     <div id="bubble" class="p-4 bg-purple-500 rounded-full absolute pointer-events-none hidden text-white ">
