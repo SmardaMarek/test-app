@@ -17,16 +17,31 @@
                 <a href="#" class="text-white text-decoration-none font-bold">logo</a>
             </h1>
     
-            <nav class="flex flex-grow justify-center space-x-6">
-                <a href="#about" class="text-white text-decoration-none">O nás</a>
-                <a href="#article" class="text-white text-decoration-none">Články</a>
-                <a href="#contact" class="text-white text-decoration-none">Kontakt</a>
-                <a href="#about" class="text-white text-decoration-none">O nás</a>
-                <a href="#article" class="text-white text-decoration-none">Články</a>
-                <a href="#contact" class="text-white text-decoration-none">Kontakt</a>
-                <a href="#about" class="text-white text-decoration-none">O nás</a>
+            <nav class="flex flex-grow justify-center space-x-6 relative">
+                <!-- Články -->
+                <div class="relative group">
+                    <a href="#article" class="text-white font-medium">Články</a>
+                    <div class="absolute hidden group-hover:block bg-gray-800 text-white mt-2 py-2 rounded shadow-lg z-50 min-w-[150px]">
+                        <a href="#article1" class="block px-4 py-2 hover:bg-gray-700">Článek 1</a>
+                        <a href="#article2" class="block px-4 py-2 hover:bg-gray-700">Článek 2</a>
+                    </div>
+                </div>
+            
+                <!-- Produkty -->
+                <div class="relative group">
+                    <a href="#products" class="text-white font-medium">Produkty</a>
+                    <div class="absolute hidden group-hover:block bg-gray-800 text-white mt-2 py-2 rounded shadow-lg z-50 min-w-[150px]">
+                        <a href="#prod1" class="block px-4 py-2 hover:bg-gray-700">Produkt 1</a>
+                        <a href="#prod2" class="block px-4 py-2 hover:bg-gray-700">Produkt 2</a>
+                    </div>
+                </div>
+            
+                <!-- Bez dropdownu -->
+                <a href="#banners" class="text-white font-medium">Bannery</a>
+                <a href="#count" class="text-white font-medium">Představení</a>
+                <a href="#slide" class="text-white font-medium">O nás</a>
             </nav>
-    
+            
             <h1 class="text-white text-lg">
                 <a href="#" class="text-white text-decoration-none"><i class="fas fa-comments"></i>
                     Zeptej se
@@ -127,7 +142,7 @@
     
 
 <!-- Count section -->
-<section class="bg-black text-white text-center py-20 px-6">
+<section class="bg-black text-white text-center py-20 px-6" id="count">
     <div class="grid grid-cols-2 border-b border-gray-800 text-left max-w-7xl mx-auto">
         <div class="flex flex-col">
             <div class="text-6xl py-12 text-white">Lorem ipsum dolor</div>
